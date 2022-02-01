@@ -13,7 +13,7 @@ var cbarX = 150;
 var cbarY = 460;
 var cbarDirection = 3;
 
-//random ellipse shape and color
+//random ellipse shape and will add random color and timer next time
 var shapeX = 20;
 var shapeY = 60;
 var shapeXs = [];
@@ -24,7 +24,7 @@ var shapeHeights = [];
 var shapeXSpeeds = [];
 var shapeYSpeeds = [];
 
-//bouncy ball
+//bouncy ball with random direction
 var x = 100;
 var y = 100;
 var dimension = 60;
@@ -41,7 +41,7 @@ function setup() {
             shapeXSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
             shapeYSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
             shapeXs[i] = random(0, 800);
-            shapeYs[i] = random(0, 600);
+            shapeYs[i] = random(0, 650);
             shapeHeights[i] = random(40, 400);
             speedX = random(1, 5);
             speedY = random(1, 5);
