@@ -62,8 +62,8 @@ function draw()
     buttonText();
     createCircle();
 
-    //add random ellipses
-    fill(160, 130, 170);
+    //add random ellipses with no fill
+    noFill();
     stroke(25, 125, 95);
     strokeWeight(5);
     for (var i = 0; i < 10; i++) 
