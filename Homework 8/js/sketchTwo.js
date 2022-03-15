@@ -87,7 +87,6 @@ function draw()
         }   
     } */
 
-// Cannot get particles to appear when collision occurs and no message appears when squirrel removed
     if(keyDown('x')) 
     {
         blob.changeAnimation('attack');
