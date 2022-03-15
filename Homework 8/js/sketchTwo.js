@@ -1,7 +1,7 @@
 
 // Cannot get paticles to dissolve at end and sorry about the gory red color
 
-//animation items for use with createSprite. Make this stationary object
+//animation items for use with createSprite that moves
 var twirlresult;
 var sleepresult;
 var attackresult;
