@@ -7,7 +7,7 @@ let cat;
 
 function preload() 
 {
-    fur = loadImage('assets/globe.png');
+    fur = loadImage('assets/Cat_diffuse.jpg');
     cat = loadModel('assets/cat.obj', true);
 }
 
